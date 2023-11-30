@@ -1,0 +1,35 @@
+{
+  "name": "codefinity-tasks",
+  "version": "1.0.0",
+  "description": "codefinity-tasks",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "node dist/server.js",
+    "start": "npm run build && npm run deploy",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mymyka/codefinity-tasks.git"
+  },
+  "keywords": [
+    "codefinity",
+    "tasks"
+  ],
+  "author": "Mykyta Kasianenko Mihailovich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mymyka/codefinity-tasks/issues"
+  },
+  "homepage": "https://github.com/mymyka/codefinity-tasks#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.10.1",
+    "concurrently": "^8.2.2",
+    "typescript": "^5.3.2"
+  }
+}
