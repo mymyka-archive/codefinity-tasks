@@ -2,10 +2,10 @@
   "name": "newdocker",
   "version": "1.0.0",
   "description": "newdocker",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "node dist/server.js",
+    "deploy": "node dist/main.js",
     "start": "npm run build && npm run deploy",
     "build": "tsc"
   },
